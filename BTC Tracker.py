@@ -3,7 +3,7 @@ import serial
 import time
 from bs4 import BeautifulSoup
 
-s = serial.Serial('COM3', baudrate=9600)
+s = serial.Serial('/dev/cu.usbmodem141301', baudrate=9600)
 time.sleep(2)
 i = 0
 
